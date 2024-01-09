@@ -1,0 +1,10 @@
+sbekucraft.main_menu.server = Join Sbekucraft
+sbekucraft.main_menu.map.tooltip = Open server map
+
+sbekucraft.info.title = Info
+sbekucraft.info.whitelister = Whitelister
+sbekucraft.info.wiki = Server guide
+sbekucraft.info.rules = Server rules
+sbekucraft.info.map = Server map
+
+sbekucraft.pause.map = Open server map

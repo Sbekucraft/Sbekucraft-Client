@@ -1,0 +1,156 @@
+type = menu
+
+customization-meta {
+  identifier = info
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"sbekucraft.info.title"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 33fc9e87-b191-4b35-aa10-635828951d731704499274131
+  y = 9
+  alignment = centered
+  height = 12
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://hackmd.io/@simonearonica/Byfxa64vT%btnaction_splitter_fm%
+  x = -105
+  width = 210
+  action = addbutton
+  actionid = 04da915b-0e0d-4430-bdb2-1d87af7504161704499575248
+  y = -82
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.wiki"}}
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://whitelist.sbekucraft.it/%btnaction_splitter_fm%
+  x = -105
+  width = 210
+  action = addbutton
+  actionid = 5c5ba963-8d45-4a83-b28e-9c08fd865cde1704500317705
+  y = -110
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.whitelister"}}
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.youtube.com/watch?v=dQw4w9WgXcQ%btnaction_splitter_fm%
+  x = -105
+  width = 210
+  action = addbutton
+  actionid = 8bab0e55-aa85-4edc-9893-bce5885a3c931704500507370
+  y = -54
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.rules"}}
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://map.sbekucraft.it/%btnaction_splitter_fm%
+  x = -105
+  width = 210
+  action = addbutton
+  actionid = 3cab4e9d-b8e6-4c7d-9c08-18c743bc65741704500534019
+  y = -26
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.map"}}
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = -75
+  width = 150
+  action = addbutton
+  actionid = e65a089c-d6fe-4c14-8c9b-71e4c9f67ec81704500648815
+  y = -28
+  label = {"placeholder":"local","values":{"key":"gui.done"}}
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://t.me/sbekucraft%btnaction_splitter_fm%
+  x = -24
+  width = 20
+  action = addbutton
+  actionid = c9823a46-9f0c-45c5-95a2-4d06a3f8d7021704501290963
+  y = 2
+  label = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/ethHwPkRAE%btnaction_splitter_fm%
+  x = 4
+  width = 20
+  action = addbutton
+  actionid = 41b4d771-ef65-408d-88b8-f9211466b6f41704501396390
+  y = 2
+  label = 
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/icons/telegram.png
+  orientation = element
+  orientation_element = c9823a46-9f0c-45c5-95a2-4d06a3f8d7021704501290963
+  x = 3
+  width = 14
+  action = addtexture
+  actionid = f7343341-d20a-4501-890b-f747641e99f71704717730065
+  y = 3
+  height = 14
+}
+
+customization {
+  path = config/fancymenu/icons/discord.png
+  orientation = element
+  orientation_element = 41b4d771-ef65-408d-88b8-f9211466b6f41704501396390
+  x = 3
+  width = 14
+  action = addtexture
+  actionid = 7a365429-d3ea-4ace-bba2-88ce00be59c71704717754230
+  y = 3
+  height = 14
+}
+

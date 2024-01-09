@@ -1,0 +1,33 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  advanced_height = {"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://map.sbekucraft.it%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][req_id:927b5a39-0fb0-432d-a092-5b1017b0e1a01704478253246] = server.sbekucraft.it
+  label = {"placeholder":"local","values":{"key":"sbekucraft.pause.map"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button"}}
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  width = 204
+  action = addbutton
+  actionid = d9b6f672-0bf4-41a8-89ef-2aeae54083461704477781172
+  y = 131
+  height = 20
+}
+

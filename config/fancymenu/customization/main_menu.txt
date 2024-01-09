@@ -1,0 +1,141 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = 5ecbc16e-8e5b-4155-ba98-ded5e1b5ef901704462130899
+  y = 343
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 422
+  width = 14
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d114c6c8-cb2c-42f9-866d-8b812dec22471704462130907
+  y = 189
+  height = 14
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 8083a4d9-3b15-4bf2-a41f-05e90237415b1704462130907
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 61a45d5b-7c32-4591-adee-0e7489935ec91704462130907
+  y = 0
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"elementheight","values":{"id":"vanillabtn:376382"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://map.sbekucraft.it%btnaction_splitter_fm%
+  description = {"placeholder":"local","values":{"key":"sbekucraft.main_menu.map.tooltip"}}
+  label = 
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"vanillabtn:376382"}}
+  loopbackgroundanimations = true
+  orientation_element = e137cc9d-0616-4fed-a8be-80483f0382711704463559766
+  x = 204
+  width = 20
+  action = addbutton
+  actionid = 08d5e630-fa04-4bed-9dbc-751afeddb2ed1704462205350
+  y = 0
+  height = 20
+}
+
+customization {
+  advanced_height = {"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = joinserver;server.sbekucraft.it%btnaction_splitter_fm%
+  label = {"placeholder":"local","values":{"key":"sbekucraft.main_menu.server"}} - {"placeholder":"serverstatus","values":{"ip":"server.sbekucraft.it"}} {"placeholder":"serverplayercount","values":{"ip":"server.sbekucraft.it"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}}
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = e137cc9d-0616-4fed-a8be-80483f0382711704463559766
+  y = 24
+  height = 20
+}
+
+customization {
+  advanced_height = {"placeholder":"elementheight","values":{"id":"vanillabtn:604382"}}
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;info%btnaction_splitter_fm%
+  label = 
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"vanillabtn:604382"}}
+  loopbackgroundanimations = true
+  orientation_element = e137cc9d-0616-4fed-a8be-80483f0382711704463559766
+  x = -24
+  width = 20
+  action = addbutton
+  actionid = b8650838-1128-48ac-9c6f-b91bdf51d3311704469256836
+  y = 0
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/icons/info.png
+  orientation = element
+  orientation_element = b8650838-1128-48ac-9c6f-b91bdf51d3311704469256836
+  x = 3
+  width = 14
+  action = addtexture
+  actionid = 044edd8b-fc3a-452e-ab11-0acae46f44af1704528551537
+  y = 3
+  height = 14
+}
+
+customization {
+  path = config/fancymenu/icons/sbekucraft.png
+  orientation = top-centered
+  x = -137
+  width = 274
+  action = addtexture
+  actionid = 92e128e8-6f0e-4d96-9a62-e544098be3141704722719313
+  y = 30
+  height = 59
+}
+
