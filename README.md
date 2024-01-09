@@ -8,14 +8,6 @@
 ![Overlay](https://raw.githubusercontent.com/Nyphet/mod-fancy-assets/main/side/client.svg)
 
 ---
-## **Description**
-Official modpack for Sbekucraft, the official Minecraft server of Sabaku No Maiku's community.  
-This modpack is an optional client-only addon to play on the server.  
-To gain access to the server you need to be a Sabaku Twitch/Patreon member (links below).  
-As Sabaku has an Italian community, this description is kept to the bare minimum. If you want help to play on the official server and can't speak Italian, come to the [official Telegram channel](https://t.me/sbekucraft) and go into the discussion group, you'll find someone ready to help.  
-If instead you want to just play with this modpack, feel free to do so.  
-If you want the feature list, just use a translator to translate the Feature section.
-
 ## **Descrizione**
 Modpack **ufficiale** per la Sbekucraft, il server Minecraft ufficiale della community di Sabaku No Maiku!  
 Il server permette la connessione sia da Java che da Bedrock. Questo modpack esiste per i giocatori Java che vogliono qualcosa in più anche lato client.
