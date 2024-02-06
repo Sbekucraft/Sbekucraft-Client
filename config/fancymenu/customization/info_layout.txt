@@ -1,156 +1,283 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = info
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706992092333
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:e738c907-118d-455d-b8c6-19e9aef80668-1706991813997] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-centered
-  enable_scrolling = false
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 9b0694b3-aae1-4f8a-b598-9ab8077b066b-1706791361198
+  [executable_action_instance:69ecd242-393a-48c7-b78a-6404bfd12d2c-1706791361200][action_type:openlink] = https://wiki.sbekucraft.it/
+  [executable_block:9b0694b3-aae1-4f8a-b598-9ab8077b066b-1706791361198][type:generic] = [executables:69ecd242-393a-48c7-b78a-6404bfd12d2c-1706791361200;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.wiki"}}
+  element_type = custom_button
+  instance_identifier = 04da915b-0e0d-4430-bdb2-1d87af7504161704499575248
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -105
+  y = 98
+  width = 210
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8322f5bb-c14a-4065-be08-61b47f44dec2-1706791361212
+  [loading_requirement_container_meta:8322f5bb-c14a-4065-be08-61b47f44dec2-1706791361212] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = efd6647c-7b0f-455a-b012-cfd14380aa9d-1706791361213
+  [executable_action_instance:3abf98cb-c6a3-4ddd-b568-123df252eb39-1706791361213][action_type:openlink] = https://whitelist.sbekucraft.it/
+  [executable_block:efd6647c-7b0f-455a-b012-cfd14380aa9d-1706791361213][type:generic] = [executables:3abf98cb-c6a3-4ddd-b568-123df252eb39-1706791361213;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.whitelister"}}
+  element_type = custom_button
+  instance_identifier = 5c5ba963-8d45-4a83-b28e-9c08fd865cde1704500317705
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -105
+  y = 70
+  width = 210
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 565134b1-56c9-41b6-a680-8e12314f4515-1706791361213
+  [loading_requirement_container_meta:565134b1-56c9-41b6-a680-8e12314f4515-1706791361213] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = bdfa0d15-adff-4331-b673-bace3fa61f94-1706791361213
+  [executable_action_instance:73cb1b0e-4b7c-44be-8cde-e5fd879ca46b-1706791361213][action_type:openlink] = https://wiki.sbekucraft.it/regole/
+  [executable_block:bdfa0d15-adff-4331-b673-bace3fa61f94-1706791361213][type:generic] = [executables:73cb1b0e-4b7c-44be-8cde-e5fd879ca46b-1706791361213;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.rules"}}
+  element_type = custom_button
+  instance_identifier = 8bab0e55-aa85-4edc-9893-bce5885a3c931704500507370
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -105
+  y = 126
+  width = 210
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e7b0c2b3-9851-410b-b61d-2882c820cd2a-1706791361213
+  [loading_requirement_container_meta:e7b0c2b3-9851-410b-b61d-2882c820cd2a-1706791361213] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 33e3fc5d-69e7-4a7a-9a20-e2ae5e6aa9a6-1706791361213
+  [executable_action_instance:d958e9d0-1aa5-42b7-a994-da482d8363a5-1706791361213][action_type:openlink] = https://map.sbekucraft.it/
+  [executable_block:33e3fc5d-69e7-4a7a-9a20-e2ae5e6aa9a6-1706791361213][type:generic] = [executables:d958e9d0-1aa5-42b7-a994-da482d8363a5-1706791361213;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = {"placeholder":"local","values":{"key":"sbekucraft.info.map"}}
+  element_type = custom_button
+  instance_identifier = 3cab4e9d-b8e6-4c7d-9c08-18c743bc65741704500534019
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -105
+  y = 154
+  width = 210
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e89cdb81-9103-41b1-b484-98c8a383c049-1706791361214
+  [loading_requirement_container_meta:e89cdb81-9103-41b1-b484-98c8a383c049-1706791361214] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 56a9b04a-6b5d-4680-9017-d36c3d3cedb5-1706791361214
+  [executable_action_instance:38afda51-de1a-4313-945b-d3a8874b2655-1706791361214][action_type:opengui] = {"placeholder":"getvariable","values":{"name":"info_from"}}
+  [executable_block:56a9b04a-6b5d-4680-9017-d36c3d3cedb5-1706791361214][type:generic] = [executables:38afda51-de1a-4313-945b-d3a8874b2655-1706791361214;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = {"placeholder":"local","values":{"key":"gui.done"}}
+  element_type = custom_button
+  instance_identifier = e65a089c-d6fe-4c14-8c9b-71e4c9f67ec81704500648815
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = -75
+  y = -28
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 70e982b0-7e01-403a-be76-dc6f05af028a-1706791361214
+  [loading_requirement_container_meta:70e982b0-7e01-403a-be76-dc6f05af028a-1706791361214] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 546a00cf-8ccc-47a5-a19f-e97068be8605-1706791361214
+  [executable_action_instance:de8bb76d-75c1-4971-bc64-feee02bbff72-1706791361214][action_type:openlink] = https://t.me/sbekucraft
+  [executable_block:546a00cf-8ccc-47a5-a19f-e97068be8605-1706791361214][type:generic] = [executables:de8bb76d-75c1-4971-bc64-feee02bbff72-1706791361214;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = custom_button
+  instance_identifier = c9823a46-9f0c-45c5-95a2-4d06a3f8d7021704501290963
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = -24
+  y = 182
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1fae2811-4814-4336-98f6-2e14113b546a-1706791361214
+  [loading_requirement_container_meta:1fae2811-4814-4336-98f6-2e14113b546a-1706791361214] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = e515c116-b856-4864-84b4-90727ce246b2-1706791361214
+  [executable_action_instance:95adf02b-82cb-4511-83d0-2c4f2d17e48a-1706791361214][action_type:openlink] = https://discord.gg/ethHwPkRAE
+  [executable_block:e515c116-b856-4864-84b4-90727ce246b2-1706791361214][type:generic] = [executables:95adf02b-82cb-4511-83d0-2c4f2d17e48a-1706791361214;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = custom_button
+  instance_identifier = 41b4d771-ef65-408d-88b8-f9211466b6f41704501396390
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
+  x = 4
+  y = 182
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = dedbf41e-78f1-4d38-9d7e-f352594bba9f-1706791361214
+  [loading_requirement_container_meta:dedbf41e-78f1-4d38-9d7e-f352594bba9f-1706791361214] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/telegram.png
+  element_type = image
+  instance_identifier = f7343341-d20a-4501-890b-f747641e99f71704717730065
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -21
+  y = 8
+  width = 14
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c5720548-e51c-4702-96d0-a1199249138d-1706791361224
+  [loading_requirement_container_meta:c5720548-e51c-4702-96d0-a1199249138d-1706791361224] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/discord.png
+  element_type = image
+  instance_identifier = 7a365429-d3ea-4ace-bba2-88ce00be59c71704717754230
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 7
+  y = 8
+  width = 14
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e5e6d1e2-060a-40ef-a424-ae10782f891e-1706791361231
+  [loading_requirement_container_meta:e5e6d1e2-060a-40ef-a424-ae10782f891e-1706791361231] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = ^^^%n%{"placeholder":"local","values":{"key":"sbekucraft.info.title"}}%n%^^^
+  source_mode = direct
   shadow = true
   scale = 1.0
-  source = {"placeholder":"local","values":{"key":"sbekucraft.info.title"}}
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = abd61266-9c4f-425b-b95d-da8767e29295-1706873258396
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-centered
   x = -100
+  y = 8
   width = 200
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 33fc9e87-b191-4b35-aa10-635828951d731704499274131
-  y = 9
-  alignment = centered
   height = 12
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://hackmd.io/@simonearonica/Byfxa64vT%btnaction_splitter_fm%
-  x = -105
-  width = 210
-  action = addbutton
-  actionid = 04da915b-0e0d-4430-bdb2-1d87af7504161704499575248
-  y = -82
-  label = {"placeholder":"local","values":{"key":"sbekucraft.info.wiki"}}
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://whitelist.sbekucraft.it/%btnaction_splitter_fm%
-  x = -105
-  width = 210
-  action = addbutton
-  actionid = 5c5ba963-8d45-4a83-b28e-9c08fd865cde1704500317705
-  y = -110
-  label = {"placeholder":"local","values":{"key":"sbekucraft.info.whitelister"}}
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://www.youtube.com/watch?v=dQw4w9WgXcQ%btnaction_splitter_fm%
-  x = -105
-  width = 210
-  action = addbutton
-  actionid = 8bab0e55-aa85-4edc-9893-bce5885a3c931704500507370
-  y = -54
-  label = {"placeholder":"local","values":{"key":"sbekucraft.info.rules"}}
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://map.sbekucraft.it/%btnaction_splitter_fm%
-  x = -105
-  width = 210
-  action = addbutton
-  actionid = 3cab4e9d-b8e6-4c7d-9c08-18c743bc65741704500534019
-  y = -26
-  label = {"placeholder":"local","values":{"key":"sbekucraft.info.map"}}
-  height = 20
-}
-
-customization {
-  orientation = bottom-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = closegui%btnaction_splitter_fm%
-  x = -75
-  width = 150
-  action = addbutton
-  actionid = e65a089c-d6fe-4c14-8c9b-71e4c9f67ec81704500648815
-  y = -28
-  label = {"placeholder":"local","values":{"key":"gui.done"}}
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://t.me/sbekucraft%btnaction_splitter_fm%
-  x = -24
-  width = 20
-  action = addbutton
-  actionid = c9823a46-9f0c-45c5-95a2-4d06a3f8d7021704501290963
-  y = 2
-  label = 
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.gg/ethHwPkRAE%btnaction_splitter_fm%
-  x = 4
-  width = 20
-  action = addbutton
-  actionid = 41b4d771-ef65-408d-88b8-f9211466b6f41704501396390
-  y = 2
-  label = 
-  height = 20
-}
-
-customization {
-  path = config/fancymenu/icons/telegram.png
-  orientation = element
-  orientation_element = c9823a46-9f0c-45c5-95a2-4d06a3f8d7021704501290963
-  x = 3
-  width = 14
-  action = addtexture
-  actionid = f7343341-d20a-4501-890b-f747641e99f71704717730065
-  y = 3
-  height = 14
-}
-
-customization {
-  path = config/fancymenu/icons/discord.png
-  orientation = element
-  orientation_element = 41b4d771-ef65-408d-88b8-f9211466b6f41704501396390
-  x = 3
-  width = 14
-  action = addtexture
-  actionid = 7a365429-d3ea-4ace-bba2-88ce00be59c71704717754230
-  y = 3
-  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 3055f727-f6a2-46c4-90d3-6e9427101169-1706873258396
+  [loading_requirement_container_meta:3055f727-f6a2-46c4-90d3-6e9427101169-1706873258396] = [groups:][instances:]
 }
 

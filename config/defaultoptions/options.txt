@@ -10,12 +10,12 @@ entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -44,10 +44,10 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:4
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","minecraft:supporteatinganimation","continuity:default","continuity:glass_pane_culling_fix","file/Hellim\u0027s 3D Blocks v0.4.zip","file/Ore Variants v2.9.zip","file/Ore Glint.zip","file/Dark Ore Glint.zip","file/Torches Reimagined.zip","file/Rails Reimagined.zip","file/Bees Reimagined.zip","file/Pigs Reimagined.zip","file/FreshAnimations_v1.8.1.zip","file/Reimagined FA-Patch.zip","file/EBE_1.20.x_v1.1.zip","file/Reimagined Night Panaroma.zip","file/Default-Dark-Mode-1.20.2+-2023.11.0.zip"]
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","minecraft:supporteatinganimation","continuity:default","continuity:glass_pane_culling_fix","file/Hellim\u0027s 3D Blocks v0.4.zip","file/Ore Variants v2.9.zip","file/§6OreGlint_Sodium.zip","file/OreGlint-CoalAddon.zip","file/Torches Reimagined.zip","file/Rails Reimagined.zip","file/§eBees§0_§eReimagined§0_§8[v1]§0.zip","file/Pigs Reimagined.zip","file/FreshAnimations_v1.8.1.zip","file/Reimagined FA-Patch.zip","file/Reimagined Fixes.zip","file/EBE_1.20.x_v1.1.zip","file/Reimagined Night Panaroma.zip","file/Default-Dark-Mode-1.20.2+-2023.11.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:it_it
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -86,7 +86,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

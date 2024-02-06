@@ -1,10 +1,10 @@
 #List of in-game IDs of additional crops
 crops = []
 #Require holding a hoe (either hands) to right-click harvest
-"require hoe" = false
+"require hoe" = true
 #If [require hoe] is set to true, damage the hoe of the given amount (0 to disable, must be an integer)
 #Range: > 0
-"damage on harvest" = 0
+"damage on harvest" = 1
 #Amount of experience to grant on harvest (0 to disable, must be an integer).
 #Range: > 0
 "exp on harvest" = 0
@@ -33,3 +33,4 @@ crops = []
 #"large" - large increment, the size of the area, starting from [starting harvest area size], increases by 6 with each higher tier. E.g. 1x1 -> 7x7 -> 13x13 -> ...
 #Allowed Values: NONE, SMALL, MEDIUM, LARGE
 "area increment step" = "NONE"
+

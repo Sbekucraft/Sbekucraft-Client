@@ -1,0 +1,11 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = info
+  title = 
+  allow_esc = true
+}
+

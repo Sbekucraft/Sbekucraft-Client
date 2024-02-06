@@ -1,5 +1,14 @@
-type = cached_variables
+type = user_variables
 
-variables {
+variable {
+  name = info_from
+  value = net.minecraft.class_442
+  reset_on_launch = false
+}
+
+variable {
+  name = direct_access
+  value = true
+  reset_on_launch = false
 }
 

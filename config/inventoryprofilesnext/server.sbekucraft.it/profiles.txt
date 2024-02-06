@@ -1,0 +1,26 @@
+
+
+
+
+profile Saved activate HOT9
+	HOT1
+		"minecraft:trident"
+	HOT2
+		"minecraft:anvil"
+
+profile Saved activate HOT4
+	HOT1
+		"minecraft:trident" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:5},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:loyalty",lvl:3},{id:"minecraft:impaling",lvl:5},{id:"minecraft:channeling",lvl:1},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]
+	HOT2
+		"minecraft:netherite_axe" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:5},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]
+	HOT3
+		"minecraft:netherite_pickaxe" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:5},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]
+	HEAD
+		"minecraft:netherite_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:4}]
+	CHEST
+		"minecraft:elytra" -> "Enchantments" : [{id:"minecraft:protection",lvl:4},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]
+	LEGS
+		"minecraft:netherite_leggings" -> "Enchantments" : [{id:"minecraft:protection",lvl:4}]
+	FEET
+		"minecraft:netherite_boots" -> "Enchantments" : [{id:"minecraft:protection",lvl:4}]
+

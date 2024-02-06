@@ -1,58 +1,102 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = test
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706791361239
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3ff9a1de-558d-47ce-a024-457a73bcc840-1706791361239] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  loopbackgroundanimations = true
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 1ae98120-338e-4c7d-b4f8-ef36f2a1145d-1706791361239
+  [executable_block:1ae98120-338e-4c7d-b4f8-ef36f2a1145d-1706791361239][type:generic] = [executables:]
   restartbackgroundanimations = true
-  x = 261
-  width = 100
-  action = addbutton
-  actionid = 43d5953e-abd8-4c8b-9c26-ecbccfdd0c2f1704496217715
-  y = 82
+  loopbackgroundanimations = true
   label = Wiki
-  height = 20
-}
-
-customization {
-  orientation = top-left
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
+  element_type = custom_button
+  instance_identifier = 43d5953e-abd8-4c8b-9c26-ecbccfdd0c2f1704496217715
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
   x = 261
+  y = 82
   width = 100
-  action = addbutton
-  actionid = 9bc79759-f9a7-4132-9bdc-c54954b222ec1704496224735
-  y = 131
-  label = Telegram
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8abc88b2-4a09-457c-9590-68bb8dd8e1b4-1706791361239
+  [loading_requirement_container_meta:8abc88b2-4a09-457c-9590-68bb8dd8e1b4-1706791361239] = [groups:][instances:]
 }
 
-customization {
-  orientation = top-left
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = 68fa0613-213a-43d2-ac99-fb0fb01a59fb-1706791361239
+  [executable_block:68fa0613-213a-43d2-ac99-fb0fb01a59fb-1706791361239][type:generic] = [executables:]
   restartbackgroundanimations = true
-  x = 257
+  loopbackgroundanimations = true
+  label = Telegram
+  element_type = custom_button
+  instance_identifier = 9bc79759-f9a7-4132-9bdc-c54954b222ec1704496224735
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 261
+  y = 131
   width = 100
-  action = addbutton
-  actionid = 745237c7-6b5a-44bf-bd40-09362a9386121704496241031
-  y = 192
-  label = Whitelister
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3a4d131f-757b-4089-96a3-c6a88fbada85-1706791361239
+  [loading_requirement_container_meta:3a4d131f-757b-4089-96a3-c6a88fbada85-1706791361239] = [groups:][instances:]
 }
 
-customization {
+element {
+  button_element_executable_block_identifier = 83147a54-be86-4234-b922-9f87a2e7acc8-1706791361239
+  [executable_block:83147a54-be86-4234-b922-9f87a2e7acc8-1706791361239][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = Whitelister
+  element_type = custom_button
+  instance_identifier = 745237c7-6b5a-44bf-bd40-09362a9386121704496241031
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 257
+  y = 192
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = adaff4ce-e5de-4890-8c82-23f9462cd583-1706791361239
+  [loading_requirement_container_meta:adaff4ce-e5de-4890-8c82-23f9462cd583-1706791361239] = [groups:][instances:]
+}
+
+element {
   orientation = top-left
   enable_scrolling = true
   shadow = true
@@ -69,5 +113,6 @@ customization {
   y = 250
   alignment = left
   height = 40
+  element_type = fancymenu_customization_item_text
 }
 
