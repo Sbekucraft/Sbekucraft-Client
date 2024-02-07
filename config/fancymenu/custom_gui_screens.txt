@@ -7,5 +7,8 @@ custom_gui {
   identifier = info
   title = 
   allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
 }
 

@@ -33,7 +33,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 gamma:1.0
-renderDistance:8
+renderDistance:16
 simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:4
@@ -44,7 +44,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:4
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","minecraft:supporteatinganimation","continuity:default","continuity:glass_pane_culling_fix","file/Hellim\u0027s 3D Blocks v0.4.zip","file/Ore Variants v2.9.zip","file/§6OreGlint_Sodium.zip","file/OreGlint-CoalAddon.zip","file/Torches Reimagined.zip","file/Rails Reimagined.zip","file/§eBees§0_§eReimagined§0_§8[v1]§0.zip","file/Pigs Reimagined.zip","file/FreshAnimations_v1.8.1.zip","file/Reimagined FA-Patch.zip","file/Reimagined Fixes.zip","file/EBE_1.20.x_v1.1.zip","file/Reimagined Night Panaroma.zip","file/Default-Dark-Mode-1.20.2+-2023.11.0.zip"]
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","minecraft:supporteatinganimation_resourcepacks/supporteatinganimation","continuity:default_resourcepacks/default","continuity:glass_pane_culling_fix_resourcepacks/glass_pane_culling_fix","file/Hellim\u0027s 3D Blocks v0.4.zip","file/Ore Variants v2.9.zip","file/§6OreGlint_Sodium.zip","file/OreGlint-CoalAddon.zip","file/§eTorches§0_§eReimagined§0_§8[v1.3.1]§0.zip","file/Rails Reimagined.zip","file/§aChests§8-§aReimagined§0_§8[v1.5]§0.zip","file/§eBees§0_§eReimagined§0_§8[v1]§0.zip","file/FreshAnimations_v1.8.1.zip","file/§aReimagined§8-§aFA-PATCH§0_§8[v1.8.1]§0.zip","file/Reimagined Fixes.zip","file/EBE_1.20.x_v1.1.zip","file/Default-Dark-Mode-1.20.2+-2023.11.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:it_it
@@ -87,7 +87,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
