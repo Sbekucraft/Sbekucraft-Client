@@ -1,4 +1,4 @@
-#Sat Jan 27 14:29:44 CET 2024
+#Sat Feb 17 21:27:50 CET 2024
 shadowDistance=64.0
 shadowMapResolution=4096
 shadowIntervalSize=1.0

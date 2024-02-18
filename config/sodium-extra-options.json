@@ -48,7 +48,7 @@
     "show_coords": false,
     "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
-    "cloud_height": 288,
+    "cloud_height": 319,
     "cloud_distance": 100,
     "toasts": false,
     "advancement_toast": true,

@@ -45,6 +45,8 @@ key_key.jade.show_overlay:key.keyboard.keypad.1:NONE
 key_key.jade.toggle_liquid:key.keyboard.unknown:NONE
 key_key.jade.narrate:key.keyboard.keypad.5:NONE
 key_key.jade.show_details_alternative:key.keyboard.unknown:NONE
+key_key.lighty.enable:key.keyboard.f7:NONE
+key_key.lighty.toggle:key.keyboard.f8:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
