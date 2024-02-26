@@ -12,7 +12,7 @@
 Official modpack for Sbekucraft, the official Minecraft server of Sabaku No Maiku's community.  
 This modpack is an optional client-only addon to play on the server.  
 To gain access to the server you need to be a Sabaku Twitch/Patreon member (links below).  
-As Sabaku has an Italian community, this description is kept to the bare minimum. If you want help to play on the official server and can't speak Italian, come to the [official Telegram channel](https://t.me/sbekucraft) and go into the discussion group, you'll find someone ready to help.  
+As Sabaku has an Italian community, this description is kept to the bare minimum. If you want help to play on the official server and can't speak Italian, come to the [official Telegram group](https://t.me/sbekucraft), you'll find someone ready to help.  
 If instead you want to just play with this modpack, feel free to do so.  
 If you want the feature list, just use a translator to translate the Feature section.
 
@@ -22,11 +22,11 @@ Il server permette la connessione sia da Java che da Bedrock. Questo modpack esi
 
 L'accesso al server è consentito ai soli abbonati al canale Twitch/Patreon di Sabaku, link presenti in fondo alla pagina. È quindi necessario accedere da [questo sito](https://whitelist.sbekucraft.it) con il proprio account Twitch/Patreon in modo da essere aggiunti alla whitelist del server.
 
-Esiste una [Wiki](https://hackmd.io/@simonearonica/Byfxa64vT) come guida estensiva sul funzionamento del server e su quali modifiche sono presenti al suo interno rispetto al Vanilla.
+Esiste una [Wiki](https://wiki.sbekucraft.it) come guida estensiva sul funzionamento del server e su quali modifiche sono presenti al suo interno rispetto al Vanilla.
 
 A [questo indirizzo](https://map.sbekucraft.it) è invece possibile visualizzare una mappa dinamica del mondo del server.
 
-Per rimanere sempre aggiornati sugli ultimi sviluppi riguardanti il server e per entrare in contatto con gli altri giocatori, esiste il [canale Telegram ufficiale](https://t.me/sbekucraft). Il gruppo è poi invece accessibile dal canale come gruppo di discussione.
+Per rimanere sempre aggiornati sugli ultimi sviluppi riguardanti il server e per entrare in contatto con gli altri giocatori, esiste il [gruppo Telegram ufficiale](https://t.me/sbekucraft).
 
 I 4 link citati sopra, assieme ad altro, sono raggiungibili anche da un nuovo menù di info accessibile dal menù principale di gioco tramite pulsante custom.
 
@@ -41,7 +41,7 @@ Tuttavia, sono pensate come complementari e in linea con ciò che il server forn
 - F3 HUD migliorata però un colpo d'occhio molto più efficace.
 - Dark mode del gioco attiva di default. Include le schermate di caricamento, il menù principale e la GUI.
 - [Better Enchantment TP]([https://modrinth.com/resourcepack/even-better-enchants](https://modrinth.com/resourcepack/even-better-enchants)): texture uniche per ciascun libro incantato!
-- [Reimagined TP](https://modrinth.com/user/Reijvi): un insieme di Texture Pack che reimmaginano, senza stravolgere, l'aspetto alcuni mob e pochi blocchi, creando un'atmosfera più immersiva e piacevole. Per chi volesse disabilitare il cambiamento dei mob, è necessario disabilitare i seguenti TP: Pigs Reimagined, Bees Reimagined e Reimagined FA Patch.
+- [Reimagined TP](https://modrinth.com/user/Reijvi): un insieme di Texture Pack che reimmaginano, senza stravolgere, l'aspetto alcuni mob e pochi blocchi, creando un'atmosfera più immersiva e piacevole.
 - Texture di alcuni blocchi connesse (sì, parlo soprattutto del vetro: addio fastidiosi bordi!)
 - Più animazioni per un'esperienza ancora più immersiva!
 - Blocchi 3D: alcuni blocchi hanno una texture leggermente in rilievo per maggiore tridimensionalità!
