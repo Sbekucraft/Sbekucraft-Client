@@ -2,6 +2,10 @@
 In questa pagina verranno riportate le note di aggiornamento del modpack client.  
 Per restare aggiornato sulle novità iscriviti al [canale Telegram](https://t.me/sbekucraft) oppure segui il [progetto su Modrinth](https://modrinth.com/modpack/sbekucraft).
 
+## [1.1.1 (02/03/2024)](https://modrinth.com/modpack/sbekucraft/version/1.1.1)
+- Corretto il numero di versione interno del modpack.
+- Aggiornate alcune mod.
+
 ## [1.1.0 (26/02/2024)](https://modrinth.com/modpack/sbekucraft/version/1.1.0)
 - Aggiornata mod [FancyMenu](https://modrinth.com/mod/fancymenu) alla versione [3.1.0](https://modrinth.com/mod/fancymenu/version/3.1.0-1.20.4-fabric)
 - Aggiunta mod [Lighty](https://modrinth.com/mod/lighty)
